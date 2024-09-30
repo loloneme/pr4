@@ -1,16 +1,32 @@
-# pr4
+# Практическая работа №4 по Программированию корпоративных систем
 
-A new Flutter project.
+## Мрясова Анастасия Александровна ЭФБО-01-22
 
-## Getting Started
+### Простое приложение с навигацией и добавлением нового продукта
 
-This project is a starting point for a Flutter application.
+Эта практическая работа является продолжением предыдущей, с некоторым дополнением - необходимо было создать страницу с добавлением нового товара, а так же реализовать удаление.
 
-A few resources to get you started if this is your first Flutter project:
+Для создания дизайна приложения был использован инструмент Figma. Прототип:
+![image](https://github.com/user-attachments/assets/6484b798-5277-4208-bc1b-7cece0b09888)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Использование картинок осуществлено с помощью указания URL до них, в верстке - Image.network. 
+Использование шрифта от Google Fonts осуществлено с помощью подключения библиотеки google_fonts.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Структура напитка описана в файле models/drink.dart, в файле data.dart приведены данные о напитках, которые используются в приложении.
+
+### Результат.
+
+На главной странице справа снизу находится кнопка, при нажатии на которую пользователь попадает на страницу создания напитка.
+
+![image](https://github.com/user-attachments/assets/f89e2815-66dd-41ca-8f14-7f7f3bd2eb88)
+
+Страница создания напитка: 
+![image](https://github.com/user-attachments/assets/0c4db529-f498-4d68-ae38-60f9d18b7f7f)
+
+На странице с информацией о напитке появилась кнопка удаления. При нажатии на нее появляется диалоговое окно с подтверждением удаления
+
+![image](https://github.com/user-attachments/assets/fb312530-0b49-4278-9006-7002898c2791)
+![image](https://github.com/user-attachments/assets/3479c823-5145-4ed7-a0e1-05b3f1cb233f)
+
+
+
