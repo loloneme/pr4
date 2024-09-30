@@ -15,17 +15,7 @@ class DrinksPage extends StatefulWidget {
 }
 
 class _DrinksPageState extends State<DrinksPage> {
-  final List<Drink> _drinks = [
-    Drink(
-        'https://github.com/loloneme/images/blob/main/bumble.png?raw=true',
-        'Бамбл',
-        'Все ингредиенты наливают слоями: сначала тягучий сироп, потом яркий сок и два шота эспрессо. '
-            'У него яркий и сложный вкус: сначала чувствуется сладость сиропа, затем — цитрусовая кислинка и легкая кофейная горечь в конце.',
-        ['Двойной Эспрессо', 'Апельсиновый фреш', 'Карамельный сироп', 'Лед'],
-        true,
-        false,
-        {'350': 300, '500': 400})
-  ];
+  final List<Drink> _drinks = drinks;
 
   void _navigateToNewDrinkPage(BuildContext context) async {
     final result = await Navigator.push(

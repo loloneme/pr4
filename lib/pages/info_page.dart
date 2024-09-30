@@ -86,9 +86,8 @@ class _InfoPageState extends State<InfoPage>{
             child: Padding(
               padding: const EdgeInsets.fromLTRB(35, 15, 35, 15),
               child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Center(child: DrinkInfo(drink: widget.drink)),
+                  DrinkInfo(drink: widget.drink),
                   const SizedBox(
                     height: 30
                   ),
